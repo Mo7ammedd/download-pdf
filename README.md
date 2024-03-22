@@ -4,7 +4,7 @@ This is a JavaScript script that utilizes the jsPDF library to convert images on
 
 ## How it Works
 
-The script loads the jsPDF library dynamically from the CDN and then creates a PDF document by looping through all the images on the webpage. It filters out images with invalid sources, and for each valid image, it follows these steps:
+The script loads the jsPDF library dynamically from the google drive and then creates a PDF document by looping through all the images on the webpage. It filters out images with invalid sources, and for each valid image, it follows these steps:
 
 1. Create a canvas element and draw the image on the canvas.
 2. Convert the canvas content to a base64-encoded image data URL.
